@@ -10,7 +10,7 @@ using static System.Net.WebRequestMethods;
 
 namespace Mandatory_assignment_1._4.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("FBP")]
     [ApiController]
     public class FootballPlayersController : ControllerBase
     {
