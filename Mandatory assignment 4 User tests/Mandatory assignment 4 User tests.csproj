@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Mandatory_assignment_4_User_tests</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.2.8" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.2.8" />
+    <PackageReference Include="coverlet.collector" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mandatory assignment 1.4\Mandatory assignment 4.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Mandatory assignment 1">
+      <HintPath>..\..\..\Mandatory assignment 1.1\Mandatory assignment 1\bin\Debug\net6.0\Mandatory assignment 1.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
